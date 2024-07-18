@@ -1,0 +1,27 @@
+Output
+
+
+
+    ┌───┐     ┌─┐   
+q_0: ┤ H ├──■──┤M├───
+     └───┘┌─┴─┐└╥┘┌─┐
+q_1: ─────┤ X ├─╫─┤M├
+          └───┘ ║ └╥┘
+c: 2/═══════════╩══╩═
+                0  1 
+Circuit depth: 2
+Number of qubits: 2
+
+
+
+
+Now, let's go through the steps to run this:
+
+Open your terminal.
+If you're not already in your project directory, navigate to it:
+Copycd qiskit_test
+
+Open your simple_qubit.py file in a text editor and replace its contents with the code above.
+Save the file and close the editor.
+Run the Python script:
+Copypython simple_qubit.py
